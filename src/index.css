@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+  --primary-coll: #8B4CFF;
+  --secund-coll: #EBEFF2;
+}
+
+/* Responsividade para telas menores que 1114x705 */
+@media (min-width:1114px) and (max-width:1280px) {
+  .card-custom {
+    width: 7rem;     /* reduz largura */
+    height: 7rem;    /* reduz altura */
+    font-size: 0.75rem;
+  }
+
+  .card-custom-icon {
+    font-size: 1.5rem; /* reduz ícone */
+  }
+
+  .power-custom{
+    gap: 12px;
+  } 
+  .button-power{
+    width: 12rem;
+  }
+}
+
+@media (min-width:801px) and (max-width:1115px){
+  .power-btn{
+    display: none;
+  }
+
+  .button-power{
+    width: 5rem;
+  }
+  
+}
