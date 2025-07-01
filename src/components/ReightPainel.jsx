@@ -3,7 +3,7 @@ import { FaWifi } from "react-icons/fa";
 import { BsLightbulbFill } from "react-icons/bs";
 import { TabletSmartphone, Refrigerator, TvMinimal, AirVent } from 'lucide-react';
 
-const PainelLeft = () => {
+const ReightPainel = () => {
   return (
     <div className="space-y-6 p-8 ">
       {/* Wi-Fi */}
@@ -100,4 +100,4 @@ const PainelLeft = () => {
   );
 };
 
-export default PainelLeft;
+export default ReightPainel;
